@@ -649,6 +649,24 @@
      "file": "/home/pi/escapee-broker/node-red/node_modules/node-red-dashboard/nodes/ui_group.js"
     }
    }
+  },
+  "node-red-node-pi-gpiod": {
+   "name": "node-red-node-pi-gpiod",
+   "version": "0.0.10",
+   "local": true,
+   "nodes": {
+    "pi-gpiod": {
+     "name": "pi-gpiod",
+     "types": [
+      "pi-gpiod in",
+      "pi-gpiod out"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-pi-gpiod",
+     "file": "/home/pi/escapee-broker/node-red/node_modules/node-red-node-pi-gpiod/pi-gpiod.js"
+    }
+   }
   }
  },
  "_credentialSecret": "a4641a3c4a4a7e34e6900af499cee7f230b2be2c809d601b9f595f69baa867b8",
@@ -656,9 +674,11 @@
   "_": {
    "editor": {
     "view": {
-     "view-grid-size": 20,
+     "view-grid-size": "20",
      "view-node-status": true,
-     "view-show-tips": true
+     "view-show-tips": true,
+     "view-snap-grid": false,
+     "view-show-grid": false
     }
    }
   }
